@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<!-- DEVELOPER: Antara Islam, IS117-001, Fall 2023 -->
+
+<html>
+    <head>
+        <title>ANTVRX | Editing Page</title>
+        <!--<link rel="stylesheet" href="my-stylesheet.css">-->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+          <link href="../styles/vp.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1><strong>ANTVRX EDITING</strong></h1>
+        </header>
+
+        <div class="container-fluid" id="div">
+            <div class="row">
+                <nav class="navbar navbar-expand-md
+                        justify-content-start
+                        bg-purple navbar-dark
+                        col-12">
+    
+                    <!-- Brand -->
+                    <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt="antvrx logo" style="width: 30px;"></a>
+                    <!-- Responsive Button for the smaller menu -->
+                    <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <!-- Links -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+    
+                            <!-- Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                                    data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Editing Applications
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="vp.html">Vegas Pro</a>
+                                    <a class="dropdown-item" href="ae.html">After Effects</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <main>
+        
+            <section class="container">
+              <div class="slider-wrapper">
+                    <div class="slider">
+                        <img id="slide-1" src="../images/vp1.png" alt="Screenshot of Vegas Pro 17 project file with
+                        clips and audio imported.">
+                        <img id="slide-2" src="../images/vp2.png" alt="Screenshot of Vegas Pro 17 project file with
+                        media generator tab opened.">
+                        <img id="slide-3" src="../images/vp3.png" alt="Screenshot of Vegas Pro 17 project file with
+                        audio effects tab opened and Equalization effect applied.">
+                    </div>
+                    <div class="slider-nav">
+                        <a href="#slide-1"></a>
+                        <a href="#slide-2"></a>
+                        <a href="#slide-3"></a>
+                    </div>
+              </div>
+
+              <h2>Vegas Pro 17</h2>
+            </section>
+
+            <section class="text">
+                <p>This editing application is what I used to get the bare bones structure 
+                    of my edit in order. This is often referred to as "cutting clips," but to
+                    be specific it's the part where I edit the audio, select clips I want to
+                    use, and start imagining my transition ideas. 
+                    <br>
+                    It's not necessary to use an entire different program for these purposes, 
+                    however I find Vegas Pro to be more beneficial because of its ability to 
+                    adjust to frame rates and sample rates, and the accuracy/adjustability of
+                    audio settings. 
+                    <br>
+                    Though it's not my favorite part of the editing process, Vegas Pro has 
+                    provided the ideal organized experience when it comes to planning an edit,
+                    and I could not make my edits without it.
+                </p>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy; Antara Islam, 2023 |  Terms Of Use  |  Privacy Statement</p>
+        </footer>
+
+        <!-- Javascript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+        </script>
+    </body>
+</html>

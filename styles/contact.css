@@ -1,0 +1,67 @@
+
+/*DEVELOPER: Antara Islam, IS117-001, Fall 2023 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+	background-color: white;
+}
+
+body {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+    width: 98%;
+    margin: 0 auto !important;
+    border: 3px solid rgb(109, 20, 147);
+    background-color: lavender !important;
+    max-width: 960px;
+}
+/*
+a:focus, a:hover {
+	font-style: italic;
+} */
+
+
+header {
+	padding: 1.25em 0 1em 0;
+    text-align: center;
+    margin: auto;
+}
+
+header h1{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+section{
+	margin-top: 15px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+#submit{
+	margin-bottom: 20px;
+}
+
+/*NAV MENU*/
+nav{
+	background-color: rgb(66, 7, 78);
+}
+
+
+/* FOOTER */
+footer {
+	background-color: rgba(34, 4, 40, 0.741);
+	clear: both;
+	height: 56px;
+	margin-bottom: 20px;
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0;
+} 

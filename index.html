@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<!-- DEVELOPER: Antara Islam, IS117-001, Fall 2023 -->
+
+<html>
+    <head>
+        <title>ANTVRX | Editing Page</title>
+        <!--<link rel="stylesheet" href="my-stylesheet.css">-->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+        <link href="styles/main.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1><strong>ANTVRX EDITING</strong></h1>
+        </header>
+
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-expand-md
+                        justify-content-start
+                        bg-purple navbar-dark
+                        col-12">
+    
+                    <!-- Brand -->
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="antvrx logo" style="width: 30px;"></a>
+                    <!-- Responsive Button for the smaller menu -->
+                    <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <!-- Links -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="html/about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="html/contact.html">Contact</a>
+                            </li>
+    
+                            <!-- Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                                    data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Editing Applications
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="html/vp.html">Vegas Pro</a>
+                                    <a class="dropdown-item" href="html/ae.html">After Effects</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <main>
+            <section>
+                <h2>Introduction</h2>
+                <p>
+                    If you are engaged in social media and consuming content in regards to your favorite shows and movies, you've
+                    probably seen an edit of your favorite characters. Whether it's on Instagram, TikTok, or even YouTube, editing
+                    is a great hobby for people to get into as it allows them to express their thoughts and opinions in a creative
+                    way, while simultaneously encouraging media literacy and discourse. Not only that, but it's basically free 
+                    advertising (we should get paid). 
+                    <br>
+                    <br>
+                    With that being said, you can take a look at some of my edits below.
+                </p>
+                <h2 id="recent">Recent Edits</h2>
+            </section>
+
+            <div class="card" id="first">
+                <video style="width: 100%;" controls>
+                    <source src="Edits/Edit 313.mp4" type="video/mp4">
+                </video>
+                <div class="container">
+                    <h3><b>Dean and Charlie</b></h3> 
+                    <p>Supernatural</em></p>
+                </div>
+            </div>
+
+            <div class="card" id="second">
+                <video style="width: 100%;" controls>
+                    <source src="Edits/Edit 312.mp4" type="video/mp4">
+                </video>
+                <div class="container">
+                    <h3><b>Glenn Rhee</b></h3>
+                    <p>The Walking Dead</p>
+                </div>
+            </div>
+
+            <div class="card" id="third">
+                <video style="width: 100%;" controls>
+                    <source src="Edits/Edit 311.mp4" type="video/mp4">
+                </video>
+                <div class="container">
+                    <h3><b>Thomas</b></h3>
+                    <p>The Maze Runner</p>
+                </div>
+            </div>
+
+            <div class="card" id="fourth">
+                <video style="width: 100%;" controls>
+                    <source src="Edits/Edit 310.mp4" type="video/mp4">
+                </video>
+                <div class="container">
+                    <h3><b>Maggie Rhee</b></h3>
+                    <p>The Walking Dead</em></p>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; Antara Islam, 2023 |  Terms Of Use  |  Privacy Statement</p>
+        </footer>
+
+        <!--
+        <footer class="footer page-footer font-small ">
+            <div class="container">
+               <div class="row">
+                   <span class="text-muted">&copy; Antara Islam, 2023 |  Terms Of Use  |  Privacy Statement</span>
+               </div>
+            </div>
+         </footer>
+       </div> -->
+
+        <!-- Javascript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+        </script>
+    </body>
+</html>

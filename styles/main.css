@@ -1,0 +1,179 @@
+
+/*DEVELOPER: Antara Islam, IS117-001, Fall 2023 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+	background-color: white;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+    width: 98%;
+    margin: auto !important;
+    border: 3px solid rgb(109, 20, 147);
+    background-color: lavender !important;
+    max-width: 960px;
+}
+
+
+/* HEADER */
+header {
+	padding: 1.25em 0 1em 0;
+    text-align: center;
+	margin: auto;
+}
+
+header h1{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/*MAIN STUFF*/
+section {
+    width: 100%;
+    margin: auto;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 4px;
+    text-decoration: underline;
+}
+
+section p{
+    text-align: left;
+}
+
+.container-fluid{
+	background-color: rgb(66, 7, 78);
+}
+
+/*NAV MENU
+
+
+/*CARD*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 35%;
+    margin-bottom: 50px;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+  
+.container {
+	margin-top: 10px;
+    padding: 2px 16px 0 16px;
+}
+
+.container p{
+    margin-bottom: 20px;
+}
+
+#first{
+    float: left;
+    margin-left: 8.75%;
+}
+
+#second {
+    float: right;
+    margin-right: 8.75%;
+    position: relative;
+}
+
+#third{
+	float: left;
+	margin-left: 8.75%;
+}
+
+#fourth{
+	float: right;
+	margin-right: 8.75%;
+	position: relative;
+}
+
+.card h4 {
+    padding-top: 10px;
+}
+
+main section p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*SECTION*/
+
+section {
+	width: 80%;
+	padding: 20px 20px 20px 20px;
+}
+
+#recent {
+    text-decoration: underline;
+}
+
+
+/* FOOTER  */
+
+footer {
+	background-color: rgba(34, 4, 40, 0.741);
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0;
+} 
+/*
+footer {
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(66, 7, 78);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+*/
+
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width:730px){
+    #first h3, #second h3, #third h3, #fourth h3{
+        font-size: 140%;
+    }
+
+}
+
+@media only screen and (max-width:645px){
+    .container p {
+		margin-bottom: 20px;
+    }
+
+    #first, #second, #third, #fourth{
+        float: none;
+        width: 70%;
+        margin: auto;
+        max-width: 645px;
+		margin-bottom: 20px;
+    }
+
+    #first h3, #second h3, #third h3, #fourth h3{
+        font-size: 200%;
+    }
+    
+}
